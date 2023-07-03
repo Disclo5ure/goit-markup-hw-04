@@ -330,7 +330,6 @@ header .list-item {
 .team {
   background-color: var(--cloud);
   padding: 120px 0;
-  margin-bottom: 120px;
 }
 
 .team .header {
@@ -368,7 +367,8 @@ header .list-item {
 .member-icons {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 24px;
 }
 
 .member-icon-container {
@@ -395,7 +395,11 @@ header .list-item {
 }
 
 .member-icon {
-  fill: white;
+  fill: var(--cloud);
+}
+
+.customers {
+  padding: 120px 0;
 }
 
 .customers .container {
@@ -407,7 +411,7 @@ header .list-item {
 
 .customers-list {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
   width: 100%;
   margin-bottom: 120px;
 }
@@ -415,11 +419,22 @@ header .list-item {
 .customer-icon-container {
   width: 168px;
   height: 88px;
+}
+
+.customer-icon-link {
+  width: 100%;
+  height: 100%;
   border: 1px solid var(--light-slate);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
+}
+
+.customer-icon-link:hover,
+.customer-icon-link:focus {
+  border-color: var(--link-hover-color);
+  color: var(--link-hover-color);
 }
 
 .customer-icon {
