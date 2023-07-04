@@ -89,7 +89,6 @@ header .list-item {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  margin-bottom: 120px;
 }
 
 .portfolio {
@@ -230,6 +229,7 @@ header .list-item {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin: 0 auto;
   max-width: 1440px;
 }
 
@@ -238,7 +238,6 @@ header .list-item {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 188px 0;
   gap: 48px;
 }
 
@@ -425,7 +424,6 @@ header .list-item {
   display: flex;
   gap: 24px;
   width: 100%;
-  margin-bottom: 120px;
 }
 
 .customer-icon-container {
